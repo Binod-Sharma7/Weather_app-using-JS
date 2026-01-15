@@ -1,0 +1,41 @@
+
+body {
+    background: #74b9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+}
+
+.app {
+    background: rgba(150, 84, 84, 0.884);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+#loading {
+    display: none;
+    font-weight: bold;
+    color: gray;
+}
+
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
